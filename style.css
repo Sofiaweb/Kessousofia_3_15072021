@@ -359,16 +359,14 @@ figcaption {
 }
 .ft {
   -webkit-background-clip: text;
-  background-clip: text;
   color: transparent;
   position: absolute;
 }
 .ft:hover {
   cursor: pointer;
-  background: linear-gradient(#9356dc, #ff79da);
+  background: -webkit-linear-gradient(#9356dc, #ff79da);
   background-size: 100% 100%;
   -webkit-background-clip: text;
-  background-clip: text;
   background-position: bottom;
   background-repeat: no-repeat;
   -webkit-animation: animationHeart 0.5s linear;
@@ -376,10 +374,10 @@ figcaption {
 }
 .ft:active {
   cursor: pointer;
-  background: linear-gradient(#9356dc, #ff79da);
+  background: -webkit-linear-gradient(#9356dc, #ff79da);
   background-size: 100% 100%;
   -webkit-background-clip: text;
-  background-clip: text;
+  -webkit-background-clip: text;
   background-position: bottom;
   background-repeat: no-repeat;
   -webkit-animation: animationHeart 0.5s linear;
